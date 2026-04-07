@@ -1,0 +1,87 @@
+[
+  {
+    "category": "Proficient",
+    "skills": [
+      {
+        "name": "Java",
+        "category": "language",
+        "proficiency": "expert"
+      },
+      {
+        "name": "Machine Learning",
+        "category": "domain",
+        "proficiency": "expert"
+      },
+      {
+        "name": "Python",
+        "category": "language",
+        "proficiency": "expert"
+      }
+    ]
+  },
+  {
+    "category": "Familiar",
+    "skills": [
+      {
+        "name": "C",
+        "category": "language",
+        "proficiency": "advanced"
+      },
+      {
+        "name": "SQL & Databases",
+        "category": "other",
+        "proficiency": "advanced"
+      },
+      {
+        "name": "HTML/CSS/JavaScript",
+        "category": "web",
+        "proficiency": "advanced"
+      }
+    ]
+  },
+  {
+    "category": "Exposure",
+    "skills": [
+      {
+        "name": "Computer Architecture",
+        "category": "other",
+        "proficiency": "intermediate"
+      },
+      {
+        "name": "OS Fundamentals",
+        "category": "other",
+        "proficiency": "intermediate"
+      }
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "skills": [
+      {
+        "name": "Problem-solving",
+        "category": "soft",
+        "proficiency": "expert"
+      },
+      {
+        "name": "Analytical Thinking",
+        "category": "soft",
+        "proficiency": "expert"
+      },
+      {
+        "name": "Team Collaboration",
+        "category": "soft",
+        "proficiency": "advanced"
+      },
+      {
+        "name": "Communication",
+        "category": "soft",
+        "proficiency": "advanced"
+      },
+      {
+        "name": "Adaptability",
+        "category": "soft",
+        "proficiency": "advanced"
+      }
+    ]
+  }
+]

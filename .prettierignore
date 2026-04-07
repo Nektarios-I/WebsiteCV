@@ -1,0 +1,10 @@
+.next
+out
+build
+node_modules
+coverage
+*.tsbuildinfo
+next-env.d.ts
+pnpm-lock.yaml
+public/models/**/*.glb
+public/models/**/*.gltf

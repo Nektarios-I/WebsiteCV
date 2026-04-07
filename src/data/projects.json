@@ -1,0 +1,84 @@
+[
+  {
+    "id": "project-slj",
+    "title": "SLJ Prediction Pipeline",
+    "description": "End-to-end ML pipeline predicting Standing Long Jump distance from raw video input using computer vision and machine learning.",
+    "longDescription": "Built a complete, production-ready pipeline that predicts Standing Long Jump (SLJ) distance from raw video input using modern computer vision and machine learning methods. Achieved strong predictive accuracy through systematic feature engineering and model evaluation across multiple regression architectures. Developed during internship at Humeral.",
+    "category": "ml",
+    "technologies": [
+      "Python",
+      "Scikit-learn",
+      "Pose Estimation",
+      "Machine Learning"
+    ],
+    "image": "/images/projects/slj.webp",
+    "links": {
+      "github": ""
+    },
+    "featured": true,
+    "date": "2024"
+  },
+  {
+    "id": "project-cmj",
+    "title": "CMJ Jump Analysis",
+    "description": "ML models analysing Counter-Movement Jump biomechanics for sports science research.",
+    "longDescription": "Developed and evaluated machine learning models to analyse Counter-Movement Jump (CMJ) biomechanics, contributing to a sports science research study. Processed raw sensor and video data to extract meaningful motion features used for model training and evaluation.",
+    "category": "ml",
+    "technologies": ["Python", "Machine Learning", "Data Analysis"],
+    "image": "/images/projects/cmj.webp",
+    "links": {
+      "github": ""
+    },
+    "featured": true,
+    "date": "2023"
+  },
+  {
+    "id": "project-kouppi",
+    "title": "Kouppi – Card Game Web App",
+    "description": "Fully interactive browser-based card game with game logic, UI state management, and responsive design.",
+    "longDescription": "Designed and developed a fully interactive browser-based card game from scratch, implementing game logic, UI state management, and responsive design. Demonstrates ability to independently deliver a complete, user-facing product end-to-end.",
+    "category": "web",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "/images/projects/kouppi.webp",
+    "links": {
+      "github": ""
+    },
+    "featured": false,
+    "date": "2024"
+  },
+  {
+    "id": "project-cv-website",
+    "title": "Interactive CV Website",
+    "description": "Personal interactive CV presented as an engaging, structured 3D gallery experience.",
+    "longDescription": "Built and deployed a personal interactive CV as a website, presenting professional experience and projects in an engaging, structured web format with a 3D gallery mode featuring explorable rooms, animated robot character, and interactive exhibits.",
+    "category": "web",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Three.js",
+      "Tailwind CSS"
+    ],
+    "image": "/images/projects/cv-website.webp",
+    "links": {
+      "live": "https://nektarios-i.github.io",
+      "github": "https://github.com/Nektarios-I"
+    },
+    "featured": true,
+    "date": "2025"
+  },
+  {
+    "id": "project-university",
+    "title": "University CS Projects",
+    "description": "Academic projects spanning algorithms, data structures, database design, and object-oriented systems.",
+    "longDescription": "Completed a range of academic projects spanning algorithms, data structures, database design, and object-oriented systems as part of the B.Sc. curriculum at the University of Cyprus. Covers topics including sorting algorithms, graph traversal, SQL database design, and OOP design patterns.",
+    "category": "other",
+    "technologies": ["Java", "C", "SQL", "Various"],
+    "image": "/images/projects/university.webp",
+    "links": {
+      "github": ""
+    },
+    "featured": false,
+    "date": "2022 – Present"
+  }
+]
