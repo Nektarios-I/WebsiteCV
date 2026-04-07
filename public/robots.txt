@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://nektarios-i.github.io/sitemap.xml
+Sitemap: https://website-cv-rho.vercel.app/sitemap.xml
 
 # Disallow admin or internal routes (none currently)
 # Disallow: /api/

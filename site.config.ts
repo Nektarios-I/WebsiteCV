@@ -48,7 +48,7 @@ export const CONTACT = {
   phone: '+357 97621017',
 
   /** Your personal website URL (this site!) */
-  website: 'https://nektarios-i.github.io',
+  website: 'https://website-cv-rho.vercel.app',
 
   /** LinkedIn profile URL */
   linkedin: '',
@@ -243,7 +243,7 @@ export const PROJECTS = [
       'Tailwind CSS',
     ],
     image: '/images/projects/cv-website.webp',
-    liveUrl: 'https://nektarios-i.github.io',
+    liveUrl: 'https://website-cv-rho.vercel.app',
     githubUrl: 'https://github.com/Nektarios-I',
     featured: true,
     date: '2025',
@@ -318,7 +318,7 @@ export const SITE_CONFIG = {
   description: `${PERSONAL.name}'s interactive CV website. ${PERSONAL.title} at the University of Cyprus.`,
 
   /** Your domain (used for sitemap, OG images) */
-  url: 'https://nektarios-i.github.io',
+  url: 'https://website-cv-rho.vercel.app',
 
   /** Default language */
   language: 'en',

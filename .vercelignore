@@ -1,0 +1,27 @@
+# Reduce upload size and avoid sending non-runtime artifacts
+
+.git
+.github
+.vscode
+node_modules
+.next
+coverage
+
+# Documentation and local planning files
+
+docs
+
+# End-to-end test assets and large reference models
+
+e2e
+
+# Local CV source/reference artifacts
+
+NektariosCV_Latex.pdf
+NektariosCV_Text.txt
+
+# Tests and local scripts not needed at runtime
+
+**/\*.test.ts
+**/\*.test.tsx
+scripts
