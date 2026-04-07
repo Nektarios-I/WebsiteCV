@@ -22,6 +22,6 @@ NektariosCV_Text.txt
 
 # Tests and local scripts not needed at runtime
 
-**/\*.test.ts
-**/\*.test.tsx
+**/*.test.ts
+**/*.test.tsx
 scripts

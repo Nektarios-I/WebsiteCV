@@ -36,8 +36,16 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Large local/reference assets that should not be versioned
+e2e/**/*.zip
+e2e/**/*.blend
+e2e/**/*.fbx
+e2e/**/*.obj
+e2e/**/*.bin
+e2e/**/*.gltf
+NektariosCV_Latex.pdf
+NektariosCV_Text.txt
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-.vercel
