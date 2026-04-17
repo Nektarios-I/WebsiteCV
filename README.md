@@ -1,38 +1,44 @@
 # WebsiteCV
 
-Interactive personal CV and portfolio website built with Next.js, TypeScript, and React Three Fiber.
+Interactive CV and portfolio platform built with Next.js, TypeScript, and React Three Fiber.
 
-**Live site:** https://website-cv-rho.vercel.app
+**Live Site:** https://website-cv-rho.vercel.app
 
 ## Overview
 
-WebsiteCV presents a professional profile through multiple UX modes, from a clean traditional CV layout to immersive 3D exploration. The goal is to combine strong engineering structure with engaging presentation.
+WebsiteCV presents a professional profile through multiple UX modes, from a clean traditional CV layout to immersive 3D exploration. The objective is to combine high-signal content for recruiters with technically strong implementation quality for engineering review.
 
-This repository is also part of an agent-assisted learning experiment: rapid, iterative implementation ("vibe coding") combined with disciplined software practices.
+This repository is also part of an agent-assisted learning experiment: fast iterative delivery ("vibe coding") guided by disciplined engineering practices.
+
+## Why This Project
+
+- Recruiter-friendly presentation with clear, readable career information.
+- Technical depth through modern architecture, typed data flow, and test tooling.
+- Multi-mode UX that demonstrates product thinking, frontend engineering, and performance-aware rendering.
 
 ## Experience Modes
 
 ### Home Hub
 
-The home hub acts as the navigation center and entry point for all presentation modes.
+The Home Hub is the single entry point and mode selector, helping users quickly choose between concise and immersive views.
 
 ![Home hub screenshot](./photo/WebsiteCVHomePage.JPG)
 
 ### Minimalist Mode
 
-A clean, recruiter-friendly CV view focused on readability, scannable sections, and fast access to key information.
+A clean CV view designed for fast scanning during recruiter review, with strong hierarchy and low interaction overhead.
 
 ![Minimalist mode screenshot](./photo/WebsiteCVMinimalist.JPG)
 
 ### Interactive Mode
 
-A richer interactive experience for exploring profile details and project content with modern motion and component-driven UI.
+A richer UI experience for deeper exploration of profile details and project content, using modular components and meaningful motion.
 
 ![Interactive mode screenshot](./photo/WebsiteCVInteractive.JPG)
 
 ### Gallery Mode
 
-An immersive 3D environment powered by React Three Fiber, designed to showcase projects and profile content in a memorable way.
+An immersive 3D portfolio environment powered by React Three Fiber, designed to showcase projects in a memorable and technically advanced format.
 
 ![Gallery mode screenshot](./photo/WebsiteCVGalleryA.JPG)
 
@@ -50,6 +56,13 @@ flowchart TD
 	F --> E
 	A --> G[SEO and Metadata]
 ```
+
+### Architecture Notes
+
+- App Router organizes route-level boundaries for each user experience mode.
+- Mode registry enables clear extension points for future presentation styles.
+- Centralized config and JSON data keep content separate from rendering logic.
+- SEO and metadata are handled as first-class concerns for discoverability.
 
 ## Tech Stack
 
@@ -69,6 +82,13 @@ flowchart TD
 - Precision-first changes with verification after each meaningful step.
 - Maintainable structure designed for extension (new modes, content sections, and visuals).
 
+## Hiring Manager Notes
+
+- Strong TypeScript-first setup and explicit structure across application layers.
+- Modern frontend stack including App Router, state management, and 3D rendering pipeline.
+- Built-in quality tooling: linting, type checks, unit tests, and end-to-end tests.
+- Practical CI/CD alignment via Vercel production deployments from `main`.
+
 ## Project Structure
 
 ```text
@@ -82,11 +102,6 @@ src/
 	stores/         # State management
 	types/          # TypeScript types
 ```
-
-#  Webstite Link
-
-https://tinyurl.com/nektarios-portfolio
-
 
 ## Getting Started
 
@@ -122,7 +137,7 @@ pnpm test:e2e       # Run Playwright end-to-end tests
 Production deployment is configured via Vercel and connected to the repository.
 
 - Production URL: https://website-cv-rho.vercel.app
-- New commits to `main` trigger automatic production deploys.
+- New commits to `main` trigger automatic production deployments.
 
 ## Credits
 
